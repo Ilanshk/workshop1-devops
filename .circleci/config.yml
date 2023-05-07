@@ -3,7 +3,7 @@ orbs:
   node: circleci/node@5.1.0
 
 executors:
-  m-exe:
+  my-exe:
     docker:
       - image: cimg/node:19.8.0
         auth:
